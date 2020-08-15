@@ -1,0 +1,17 @@
+var wall1 , wall2 , wall3 , wall4;
+
+function setup() {
+  createCanvas( 400, 400);
+  wall1 = createSprite( 380, 360, 10, 20);
+  wall2 = createSprite( 350, 360, 10, 20);
+  wall3 = createSprite( 300, 360, 10, 20);
+  wall4 = createSprite( 260, 360, 10, 20);
+}
+
+function draw() {
+  background(black);
+
+
+drawSprites();
+
+}
